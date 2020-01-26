@@ -1,0 +1,25 @@
+.sidebar {
+    width: 85px;
+    position: fixed;
+    z-index: 1; /*overlapping position on z axis on a page*/ 
+    top: 30px; /*position from the top of the page */
+    left: 10px; /*position from the left of the page */
+    background: grey;
+    overflow-x: hidden; /*hidden any overflow on x axis*/
+    padding: 12px 2px;
+    }
+.sidebar a {
+    padding: 4px 4px 4px 4px;
+    text-decoration: none;
+    font-size: 14px;
+    color: yellow;
+    display: block;
+}
+.sidebar a:hover {
+    color: yellowgreen;
+}
+.content-page {
+    margin-left: 105px; /* Same width as the sidebar + left position in px !copied from example https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed2*/
+    font-size: 12px; /* Increased text to enable scrolling !copied from example https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed2*/
+    padding: 0px 10px;
+}

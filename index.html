@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>What I learned in Week 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="sidebar">
+    <a href="#html" target="_self">HTML</a>
+    <a href="#css">CSS</a>
+    <a href="#">Projects</a>
+</div>
+<div class="content-page">
+    <a href="#html">HTML</a>
+    <p>During the first couple of days we've learned about HTML and practice by creating projects with exercises. HTML is hypertext markup language
+    that structures a webpage with meaningful information for various manupilation for styling and content delivery via backend database.
+    We are achieving this in HTML via tags. Each HTML page starts with Doctype, html tag and head where title, meta data, link to CSS files then body tag
+    where main content of a page resides. example below.
+    </p>
+    <pre>
+    <code>
+    <!--used https://www.freeformatter.com/html-escape.html#ad-output to preformat for displaying example code of html-->
+        &lt;!Doctype html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;This is Title&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;p&gt;This is content&lt;/p&gt;
+            &lt;/body&gt;
+        &lt;/html&gt;
+    </code>
+    </pre>
+    <a href="#css">CSS</a>
+    <p>CSS stands for Cascading Style Sheets and is a language to style an html page with various styles. The best practice for it is to use link tag
+        to link external dot css file within page's file structure in html file ie index.html or any other html file that requires styling.
+        then using dot css file using ids classes and tags with properties and values to style various components and its behavior in html page.
+        example below:
+    </p>
+    <pre>
+        <code>
+            .sidebar {
+                width: 85px;
+                position: fixed;
+                z-index: 1; /*overlapping position on z axis on a page*/ 
+                top: 30px; /*position from the top of the page */
+                left: 10px; /*position from the left of the page */
+                background: grey;
+                overflow-x: hidden; /*hidden any overflow on x axis*/
+                padding: 12px 2px;
+                }
+        </code>
+    </pre>
+</div>
+
+</body>
+</html>
